@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
+        <module name="hystrix-dashboard" />
+        <module name="eureka-consumer-feign" />
+        <module name="eureka-client" />
+        <module name="springboot-rabbitmq" />
+        <module name="rabbitmq-product" />
+        <module name="rocketmq-product" />
+        <module name="leetcode-example" />
+        <module name="eureka-consumer-ribbon-hystrix" />
+        <module name="eureka-server" />
+        <module name="consul-client" />
+        <module name="eureka-consumer-ribbon" />
+        <module name="rabbitmq-consumer" />
+        <module name="config-server-git" />
+        <module name="eureka-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-client" target="1.6" />
+      <module name="config-server-git" target="1.6" />
+      <module name="consul-client" target="1.6" />
+      <module name="eureka-client" target="1.6" />
+      <module name="eureka-consumer" target="1.6" />
+      <module name="eureka-consumer-feign" target="1.6" />
+      <module name="eureka-consumer-ribbon" target="1.6" />
+      <module name="eureka-consumer-ribbon-hystrix" target="1.6" />
+      <module name="eureka-server" target="1.6" />
+      <module name="hystrix-dashboard" target="1.8" />
+      <module name="leetcode-example" target="1.6" />
+      <module name="rabbitmq-consumer" target="1.5" />
+      <module name="rabbitmq-product" target="1.5" />
+      <module name="rocketmq-product" target="1.5" />
+      <module name="springboot-rabbitmq" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
